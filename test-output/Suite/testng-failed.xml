@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Run on FIREFOX browser(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="nopCommerce.user.User_Login">
+        <methods>
+          <include name="Login_06_Valid_Login"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- nopCommerce.user.User_Login -->
+    </classes>
+  </test> <!-- Run on FIREFOX browser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
