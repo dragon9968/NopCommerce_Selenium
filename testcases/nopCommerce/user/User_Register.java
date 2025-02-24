@@ -69,7 +69,7 @@ public class User_Register {
 	  driver.findElement(By.cssSelector("input#confirmation")).sendKeys(password);
 	  driver.findElement(By.cssSelector("input#is_subscribed")).click();
 	  driver.findElement(By.xpath("//button[@title='Register']")).click();
-	  Assert.assertEquals(driver.findElement(By.cssSelector(".success-msg")).getText(), "Thank you for registering with Main Website Store.");
+	  Assert.assertEquals(driver.findElement(By.cssSelector(".success-msg")).getText(), "Thank you for registering with Main Website Store..");
 	  driver.findElement(By.xpath("//span[@class='label' and text()='Account']")).click();
 	  driver.findElement(By.xpath("//a[@title='Log Out']")).click();
   }

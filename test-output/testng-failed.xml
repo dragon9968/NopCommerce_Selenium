@@ -4,13 +4,13 @@
   <test thread-count="5" name="Run on FIREFOX browser(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="nopCommerce.user.User_Login">
+      <class name="nopCommerce.user.User_Register">
         <methods>
-          <include name="Login_06_Valid_Login"/>
-          <include name="beforeClass"/>
           <include name="afterClass"/>
+          <include name="TC_03_Register_Success"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- nopCommerce.user.User_Login -->
+      </class> <!-- nopCommerce.user.User_Register -->
     </classes>
   </test> <!-- Run on FIREFOX browser(failed) -->
 </suite> <!-- Failed suite [Suite] -->
